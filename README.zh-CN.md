@@ -6,7 +6,7 @@
 >
 > **"下雨天，再也不用被困在教学楼了。"**
 
-🎨 UI 页面预览（GitHub Pages）：https://ashjuvin.github.io/Campus-RainHub/
+🎨 UI 页面预览（GitHub Pages）：https://juvin-chen.github.io/Campus-RainHub/
 
 ### 项目简介
 **Campus RainHub** 旨在**重塑校园微出行**。这是一个集用户智能终端交互、后台实时状态监控与数据可视化决策于一体的校园共享雨伞服务平台。

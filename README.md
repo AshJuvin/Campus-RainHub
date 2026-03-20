@@ -4,7 +4,7 @@
 
 > **"No more being trapped in buildings on rainy days."**
 
-🎨 UI Preview (GitHub Pages): https://ashjuvin.github.io/Campus-RainHub/
+🎨 UI Preview (GitHub Pages): https://juvin-chen.github.io/Campus-RainHub/
 
 ### Project Introduction
 
