@@ -7,13 +7,13 @@
     <title>Campus RainHub - 校园共享雨伞服务平台</title>
     <style>
         :root {
-            --primary: #3b82f6;
-            --secondary: #60a5fa;
-            --dark-bg: #0f172a;
-            --card-bg: #1e293b;
-            --text-main: #f1f5f9;
-            --text-sub: #94a3b8;
-            --gradient: linear-gradient(135deg, #3b82f6 0%, #2dd4bf 100%);
+            --primary: #5aa9ff;
+            --secondary: #93c5fd;
+            --dark-bg: #f5fbff;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+            --text-sub: #475569;
+            --gradient: linear-gradient(135deg, #5aa9ff 0%, #7dd3fc 60%, #a7f3d0 100%);
         }
 
         * {
@@ -45,8 +45,8 @@
         header {
             padding: 6rem 0 4rem;
             text-align: center;
-            background: radial-gradient(circle at top, #1e293b 0%, #0f172a 70%);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            background: radial-gradient(circle at top, #ffffff 0%, #eef6ff 70%);
+            border-bottom: 1px solid rgba(15, 23, 42, 0.08);
         }
 
         h1 {
@@ -66,12 +66,12 @@
             border-radius: 50px;
             font-weight: 600;
             margin-top: 1.5rem;
-            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+            box-shadow: 0 6px 20px rgba(79, 141, 247, 0.25);
         }
 
         .btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
+            box-shadow: 0 10px 30px rgba(79, 141, 247, 0.35);
         }
 
         /* Gallery Section */
@@ -102,7 +102,7 @@
             background: var(--primary);
             border-color: var(--primary);
             color: white;
-            box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+            box-shadow: 0 0 15px rgba(79, 141, 247, 0.2);
         }
 
         .grid {
@@ -120,7 +120,7 @@
             background: var(--card-bg);
             border-radius: 16px;
             overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(15, 23, 42, 0.08);
             transition: 0.3s;
             cursor: pointer;
             display: flex;
@@ -130,13 +130,13 @@
         .card:hover {
             transform: translateY(-5px);
             border-color: var(--secondary);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 14px 40px rgba(15, 23, 42, 0.12);
         }
 
         .card-img-wrapper {
             width: 100%;
             height: 240px;
-            background: #000;
+            background: #e2e8f0;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -168,7 +168,7 @@
             font-size: 1.2rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
-            color: #fff;
+            color: var(--text-main);
         }
 
         .card-desc {
@@ -255,23 +255,23 @@
         <div class="container">
             <div style="font-size: 4rem; margin-bottom: 1rem;">☔</div>
             <h1>Campus RainHub</h1>
-            <p style="font-size: 1.2rem; color: #94a3b8; font-weight: 300;">
+            <p style="font-size: 1.2rem; color: var(--text-sub); font-weight: 300;">
                 "No more being trapped in buildings on rainy days."<br>
                 下雨天，再也不用被困在教学楼了。
             </p>
-            <a href="https://github.com/Juvin-Chen/Campus-RainHub" target="_blank" class="btn">
+            <a href="https://github.com/AshJuvin/Campus-RainHub" target="_blank" class="btn">
                 ⭐ View on GitHub
             </a>
 
             <div style="margin-top: 2rem; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
                 <span
-                    style="background:rgba(255,255,255,0.1); padding:5px 10px; border-radius:4px; font-size:0.8rem; color:#60a5fa;">C++
+                    style="background:rgba(2, 132, 199, 0.10); padding:5px 10px; border-radius:4px; font-size:0.8rem; color:var(--primary);">C++
                     17</span>
                 <span
-                    style="background:rgba(255,255,255,0.1); padding:5px 10px; border-radius:4px; font-size:0.8rem; color:#60a5fa;">Qt
+                    style="background:rgba(2, 132, 199, 0.10); padding:5px 10px; border-radius:4px; font-size:0.8rem; color:var(--primary);">Qt
                     6.9.3</span>
                 <span
-                    style="background:rgba(255,255,255,0.1); padding:5px 10px; border-radius:4px; font-size:0.8rem; color:#60a5fa;">MySQL
+                    style="background:rgba(2, 132, 199, 0.10); padding:5px 10px; border-radius:4px; font-size:0.8rem; color:var(--primary);">MySQL
                     8.0</span>
             </div>
         </div>

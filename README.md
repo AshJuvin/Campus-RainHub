@@ -4,6 +4,8 @@
 
 > **"No more being trapped in buildings on rainy days."**
 
+🌐 UI Preview (GitHub Pages): https://ashjuvin.github.io/Campus-RainHub/
+
 ### Project Introduction
 
 **Campus RainHub** aims to **reshape campus micro-mobility**. It is a shared umbrella service platform integrating intelligent user terminal interaction, real-time backend monitoring, and data visualization for decision-making.
